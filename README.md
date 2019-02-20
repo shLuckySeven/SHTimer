@@ -10,7 +10,7 @@
                             async:NO];
 ## 2. 取消
 ### 直接在要取消的地方调用cancle方法
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
+    - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+    {
     [SHTimer cancelTask:self.task];
-}
+    }
